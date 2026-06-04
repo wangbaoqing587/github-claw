@@ -129,7 +129,7 @@ github-claw/
 ### 工具使用优先级
 1. GitHub REST API（get-github-data、create-or-update-file 等）
 2. Git 版本控制（记录所有变更）
-3. 语义搜索（semantic-code-search、semantic_issues_search）
+3. 语��搜索（semantic-code-search、semantic_issues_search）
 4. 本地文件操作（getfile）
 
 ---
@@ -144,17 +144,24 @@ github-claw/
 ### 文件优先
 - 真实来源是文件，不是对话历史
 - 所有重要信息都必须落地到 `memory/` 或相应的工作文件
-- 对话可以丢失，记忆文件不能丢失
+- 对话可以灭失，文件永存
 
-### 渐进式演化
-- 规则和流程会随使用而改进
-- 在 `IMPROVEMENTS.md` 中记录想法
-- 定期审视和优化工作方式
+### 持续演化
+- 通过任务实践来改进工作方式
+- 定期回顾 `IMPROVEMENTS.md`，优化流程
+- 记忆不是一成不变，而是随着经验迭代的活体
 
 ---
 
-## 更新日志
+## 快速导航
 
-| 日期 | 事件 |
-|------|------|
-| 2026-06-03 | 初始化 AGENTS.md 框架 |
+| 需要什么 | 查看哪个文件 |
+|---------|----------|
+| 我是谁、怎么工作 | `AGENTS.md`（本文件）|
+| 我的角色与原则 | `SOUL.md` |
+| 当前任务与进度 | `WORK_LOG.md` |
+| 项目背景与目标 | `memory/context.md` |
+| 已积累的知识 | `memory/learnings.md` |
+| 常用工具与API | `memory/tools.md` |
+| 工作产物 | `workspace/` |
+| 需要改进的地方 | `IMPROVEMENTS.md` |
